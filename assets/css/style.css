@@ -1,0 +1,55 @@
+.jumbotron {
+    box-sizing: border-box;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .main-button-container {
+    margin-top: 175px;
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timer-p {
+    margin-top: 40px;
+  }
+  
+  .answer:hover {
+    background: rgb(230, 74, 74);
+  }
+  
+  .answer {
+    padding-top: 7px;
+    height: 45px;
+    color: black;
+    padding-left: 14px;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .img-wrong {
+    margin-top: 40px;
+  }
+  
+  .first-answer {
+    margin-top: 40px;
+  }
+  
+  .reset-button {
+    margin-top: 40px;
+  }
+  
+  .summary-correct {
+    margin-top: 40px;
+  }
+  
+  body {
+    background-image: url("https://image.ibb.co/ncV1xc/flag.png");
+    background-color: #DD0506;
+    color: white;
+  }
+
+  h1 {
+      text: outline 5px black;
+  }
