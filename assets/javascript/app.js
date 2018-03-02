@@ -22,7 +22,6 @@ $(document).ready(function() {
         selectedAnswer = $(this).text();
         if(selectedAnswer === correctAnswers[questionCounter]) {
             //alert("correct");
-    
             clearInterval(theClock);
             generateWin();
         }
@@ -55,7 +54,7 @@ $(document).ready(function() {
     
     function generateLoss() {
         incorrectTally++;
-        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='img/x.png'>";
+        gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter] + "</p>" + "<img class='center-block img-wrong' src='assets/images/wrong.png'>";
         $(".mainArea").html(gameHTML);
         setTimeout(wait, 4000); 
     }
