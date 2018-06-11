@@ -48,7 +48,7 @@
     height: 100%;
   }
   body { 
-        background-image: "https://image.ibb.co/buczYT/trivia.png";
+        background-image: url(https://image.ibb.co/buczYT/trivia.png);
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
