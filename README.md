@@ -2,7 +2,7 @@
 
 ### About:
 A fun trivia game about America's most beautiful places. Think you have what it takes to get all the answers correct? Click the link to find out! 
-[Github](https://guycpalmer.github.io/TriviaGame/)
+[Travel Trivia Show](https://guycpalmer.github.io/TriviaGame/)
 
 
 
